@@ -191,8 +191,8 @@ return "FAILURE";
 
         //Add a passenger to the database
         //And return a "SUCCESS" message if the passenger has been added successfully.
-
-       return null;
+passengerdb.put(passenger.getPassengerId(),passenger);
+       return "SUCCESS";
     }
 
 
